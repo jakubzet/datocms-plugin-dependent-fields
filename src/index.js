@@ -47,7 +47,7 @@ window.DatoCmsPlugin.init((plugin) => {
     );
 
     toggleSelectedDatoField(shouldToggleNextField).then(
-      plugin.notice('Changes will be visible upon view refresh'),
+      plugin.notice(`Changes of ${plugin.fieldPath} will be visible upon save`),
     );
   });
 });
