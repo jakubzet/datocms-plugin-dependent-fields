@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-confusing-arrow": "off",
+    "no-console": "off",
+    "object-curly-newline": "off"
+  }
+}
